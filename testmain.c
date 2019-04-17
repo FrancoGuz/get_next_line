@@ -31,7 +31,7 @@ int	main(void)
 {
 	char *ptr;
 	int fd;
-	fd = open("hello.txt", O_RDONLY);
+	fd = open("open.txt", O_RDONLY);
 	printf("%d\n", fd);
 	while (get_next_line(fd, &ptr) > 0)
 	{
